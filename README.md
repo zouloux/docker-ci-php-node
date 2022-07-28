@@ -10,8 +10,6 @@ In your `.gitlab-ci.yml` file :
 
 ```yml
 # Docker image with : Ubuntu 22 / PHP 8.1 / Composer / Node 18 / NPM 8
-# https://hub.docker.com/r/zouloux/ci-php-node/dockerfile
 image:
   name: zouloux/docker-ci-php-node
-
 ```
